@@ -42,6 +42,13 @@ figure img {
     color: #487ad0;
 }
 
+caption {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    color: #e4dfda;
+}
+
 button {
     font-family: 'Roboto Condensed';
     display: block;

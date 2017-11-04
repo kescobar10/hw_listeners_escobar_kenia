@@ -13,3 +13,11 @@ eventTwo.addEventListener('dblclick', function () {
     seeCaption.innerHTML = '<caption>This is a stock photo of snowy branches.</caption>';
     document.getElementsByTagName('figure')[0].appendChild(seeCaption);
 });
+
+// Third event listener: Click the button to change page background color
+var eventThree = document.getElementsByTagName('button')[0];
+
+eventThree.addEventListener('click', function () {
+    event.preventDefault();
+    document.getElementById('body').className = 'teal';
+});

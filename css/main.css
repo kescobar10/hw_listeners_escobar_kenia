@@ -1,0 +1,15 @@
+body {
+    background-color: #e4dfda;
+    font-family: 'Roboto Condensed';
+    padding: 25px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #e84855;
+}
+
+article {
+    font-size: 1.2em;
+    color: #2f4858;
+}

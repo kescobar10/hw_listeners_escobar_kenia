@@ -1,13 +1,8 @@
-var clickme = document.getElementsByTagName('button')[0];
-var firstName = document.getElementById('firstname');
-var lastName = document.getElementById('lastname');
-var email = document.getElementById('email');
-var message = document.getElementById('message');
+// First event listener: Click h1 to change its color
+var eventOne = document.getElementsByTagName('h1')[0];
 
-clickme.addEventListener('click', function () {
-    event.preventDefault();
-    console.log('The firstName is: ' + firstName.value);
-    console.log('The lastName is: ' + lastName.value);
-    console.log('The email is: ' + email.value);
-    console.log('The message is: ' + message.value);
+eventOne.addEventListener('click', function () {
+    eventOne.className = 'blue';
 });
+
+//

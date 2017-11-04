@@ -1,8 +1,13 @@
-var clickme = document.getElementsByTagName('h1')[0];
+var clickme = document.getElementsByTagName('button')[0];
+var firstName = document.getElementById('firstname');
+var lastName = document.getElementById('lastname');
+var email = document.getElementById('email');
+var message = document.getElementById('message');
 
 clickme.addEventListener('click', function () {
-    var newParagraph = document.createElement('p');
-    var i = 0;
-    newParagraph.innerHTML = '<p>This is click number 1</p>' + i++;
-    document.getElementsByTagName('body')[0].appendChild(newParagraph);
+    event.preventDefault();
+    console.log('The firstName is: ' + firstName.value);
+    console.log('The lastName is: ' + lastName.value);
+    console.log('The email is: ' + email.value);
+    console.log('The message is: ' + message.value);
 });

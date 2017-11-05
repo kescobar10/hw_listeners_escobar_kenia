@@ -38,12 +38,8 @@ figure img {
     display: block;
 }
 
-.blue {
-    color: #487ad0;
-}
-
 .teal {
-    background-color: #55dde0;
+    color: #55dde0;
 }
 
 caption {
